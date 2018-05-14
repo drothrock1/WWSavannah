@@ -5,7 +5,7 @@
 //  Copyright 2010 __Rothrock Group, LLC__. All rights reserved.
 //
 
-#define kCustomButtonHeight		30.0
+//#define kCustomButtonHeight		30.0
 
 // keys to our dictionary holding info on each page
 #define kViewControllerKey		@"viewController"

@@ -26,7 +26,8 @@
 {
 	// add the navigation controller's view to the window
 //	[window addSubview:navigationController.view];
-	[window addSubview:[rootTabBarController view]];
+//	[window addSubview:[rootTabBarController view]];
+    [self.window setRootViewController:rootTabBarController];
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];
     
@@ -51,7 +52,7 @@
         UIImageView *myImageView = [[UIImageView alloc] initWithImage:myImage];
         
         
-        [myImageView setFrame:CGRectMake(0, 0, 320, 480)];
+        //[myImageView setFrame:CGRectMake(0, 0, 320, 480)];
         
         [window addSubview:myImageView];
         [window sendSubviewToBack:myImageView];

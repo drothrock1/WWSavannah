@@ -27,7 +27,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
-@property(nonatomic, strong) CLLocationManager *locationManager;
+@property (nonatomic, strong) CLLocationManager *locationManager;
 
 - (IBAction)showLinks:(id)sender;
 - (IBAction)toggleMapSettingsView;

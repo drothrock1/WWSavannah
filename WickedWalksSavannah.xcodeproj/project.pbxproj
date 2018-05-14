@@ -11,6 +11,20 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589E0D05DD5A006BFB54 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		410CDD40207CF693004ACA07 /* icon40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410CDD3F207CF693004ACA07 /* icon40@3x.png */; };
+		410CDD42207CF7C6004ACA07 /* icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 410CDD41207CF7C6004ACA07 /* icon60@2x.png */; };
+		412D7565207CF13600CCF4F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7564207CF13600CCF4F8 /* Icon.png */; };
+		412D7567207CF16600CCF4F8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7566207CF16600CCF4F8 /* Icon@2x.png */; };
+		412D7569207CF18400CCF4F8 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7568207CF18300CCF4F8 /* Icon29.png */; };
+		412D756B207CF19500CCF4F8 /* icon29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D756A207CF19500CCF4F8 /* icon29@2x.png */; };
+		412D756D207CF1A200CCF4F8 /* icon29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D756C207CF1A200CCF4F8 /* icon29@3x.png */; };
+		412D756F207CF1B300CCF4F8 /* icon20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D756E207CF1B300CCF4F8 /* icon20@2x.png */; };
+		412D7571207CF1C000CCF4F8 /* icon20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7570207CF1BF00CCF4F8 /* icon20@3x.png */; };
+		412D7573207CF1D000CCF4F8 /* icon40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7572207CF1D000CCF4F8 /* icon40@2x.png */; };
+		412D7579207CF1F900CCF4F8 /* icon60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 412D7578207CF1F900CCF4F8 /* icon60@3x.png */; };
+		4150670A207A5F85003E53A9 /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 41506709207A5F85003E53A9 /* Icon1024.png */; };
+		4174BF6F2078014400DD95E4 /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4174BF6E2078014400DD95E4 /* icon60.png */; };
+		41A3E5AC207D871600158DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A3E5AB207D871600158DF5 /* Images.xcassets */; };
 		531F16A70D6367A3003D33FB /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16970D6367A3003D33FB /* PageTwoViewController.m */; };
 		531F16A80D6367A3003D33FB /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16980D6367A3003D33FB /* PageOneViewController.m */; };
 		531F16A90D6367A3003D33FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 531F16990D6367A3003D33FB /* AppDelegate.m */; };
@@ -54,9 +68,6 @@
 		C43496211E5CBC86003D59F6 /* Colonial Park Gate.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496201E5CBC86003D59F6 /* Colonial Park Gate.png */; };
 		C43496231E5CBC8F003D59F6 /* Davenport House.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496221E5CBC8F003D59F6 /* Davenport House.png */; };
 		C43496271E5CBC9F003D59F6 /* Gallows.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496261E5CBC9F003D59F6 /* Gallows.png */; };
-		C43496291E5CBCEC003D59F6 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496281E5CBCEC003D59F6 /* Icon29.png */; };
-		C434962B1E5CBCF4003D59F6 /* Icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = C434962A1E5CBCF4003D59F6 /* Icon50.png */; };
-		C434962D1E5CBCFE003D59F6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C434962C1E5CBCFE003D59F6 /* Icon.png */; };
 		C434962F1E5CBD0C003D59F6 /* Icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = C434962E1E5CBD0C003D59F6 /* Icon58.png */; };
 		C43496311E5CBD19003D59F6 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496301E5CBD19003D59F6 /* Icon72.png */; };
 		C43496331E5CBD20003D59F6 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496321E5CBD20003D59F6 /* Icon114.png */; };
@@ -96,7 +107,6 @@
 		C43496831E5CBECC003D59F6 /* War Amputee.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496821E5CBECC003D59F6 /* War Amputee.png */; };
 		C43496851E5CBED4003D59F6 /* Wright Square.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496841E5CBED4003D59F6 /* Wright Square.png */; };
 		C43496871E5CBF2A003D59F6 /* Civil War amputation.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496861E5CBF2A003D59F6 /* Civil War amputation.png */; };
-		C43496891E5CC240003D59F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43496881E5CC240003D59F6 /* Images.xcassets */; };
 		C434968B1E689984003D59F6 /* nolac4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C434968A1E689983003D59F6 /* nolac4.mp3 */; };
 		C434968D1E68998D003D59F6 /* nolac3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C434968C1E68998D003D59F6 /* nolac3.mp3 */; };
 		C434968F1E689995003D59F6 /* nolac10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C434968E1E689995003D59F6 /* nolac10.mp3 */; };
@@ -110,8 +120,8 @@
 		C43496A11E689B21003D59F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A01E689B21003D59F6 /* Default@2x.png */; };
 		C43496A31E689B29003D59F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A21E689B29003D59F6 /* Default-568h@2x.png */; };
 		C43496A51E689B98003D59F6 /* Header1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A41E689B98003D59F6 /* Header1-568h@2x.png */; };
-		C43496A71E689BA2003D59F6 /* Header1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A61E689BA2003D59F6 /* Header1@2x.png */; };
-		C43496A91E689BAC003D59F6 /* Header1.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A81E689BAC003D59F6 /* Header1.png */; };
+		C43496A71E689BA2003D59F6 /* Header1.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A61E689BA2003D59F6 /* Header1.png */; };
+		C43496A91E689BAC003D59F6 /* Header1480.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496A81E689BAC003D59F6 /* Header1480.png */; };
 		C43496AB1E68C144003D59F6 /* Diane320.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496AA1E68C144003D59F6 /* Diane320.png */; };
 		C43496AD1E6B49D2003D59F6 /* Sorrel Weed 20's.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496AC1E6B49D2003D59F6 /* Sorrel Weed 20's.png */; };
 		C43496AF1E6B49E1003D59F6 /* Sorrel Weed basement.png in Resources */ = {isa = PBXBuildFile; fileRef = C43496AE1E6B49E1003D59F6 /* Sorrel Weed basement.png */; };
@@ -179,6 +189,20 @@
 		1DC4B2650D05D9C8003A8154 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		410CDD3F207CF693004ACA07 /* icon40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon40@3x.png"; sourceTree = "<group>"; };
+		410CDD41207CF7C6004ACA07 /* icon60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon60@2x.png"; sourceTree = "<group>"; };
+		412D7564207CF13600CCF4F8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		412D7566207CF16600CCF4F8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		412D7568207CF18300CCF4F8 /* Icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon29.png; sourceTree = "<group>"; };
+		412D756A207CF19500CCF4F8 /* icon29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon29@2x.png"; sourceTree = "<group>"; };
+		412D756C207CF1A200CCF4F8 /* icon29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon29@3x.png"; sourceTree = "<group>"; };
+		412D756E207CF1B300CCF4F8 /* icon20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@2x.png"; sourceTree = "<group>"; };
+		412D7570207CF1BF00CCF4F8 /* icon20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20@3x.png"; sourceTree = "<group>"; };
+		412D7572207CF1D000CCF4F8 /* icon40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon40@2x.png"; sourceTree = "<group>"; };
+		412D7578207CF1F900CCF4F8 /* icon60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon60@3x.png"; sourceTree = "<group>"; };
+		41506709207A5F85003E53A9 /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
+		4174BF6E2078014400DD95E4 /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = "<group>"; };
+		41A3E5AB207D871600158DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WickedWalksSavannah/Images.xcassets; sourceTree = "<group>"; };
 		531F16910D63677B003D33FB /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		531F16970D6367A3003D33FB /* PageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTwoViewController.m; sourceTree = "<group>"; };
 		531F16980D6367A3003D33FB /* PageOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
@@ -238,9 +262,6 @@
 		C43496201E5CBC86003D59F6 /* Colonial Park Gate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colonial Park Gate.png"; sourceTree = "<group>"; };
 		C43496221E5CBC8F003D59F6 /* Davenport House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Davenport House.png"; sourceTree = "<group>"; };
 		C43496261E5CBC9F003D59F6 /* Gallows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gallows.png; sourceTree = "<group>"; };
-		C43496281E5CBCEC003D59F6 /* Icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon29.png; sourceTree = "<group>"; };
-		C434962A1E5CBCF4003D59F6 /* Icon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon50.png; sourceTree = "<group>"; };
-		C434962C1E5CBCFE003D59F6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		C434962E1E5CBD0C003D59F6 /* Icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon58.png; sourceTree = "<group>"; };
 		C43496301E5CBD19003D59F6 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
 		C43496321E5CBD20003D59F6 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon114.png; sourceTree = "<group>"; };
@@ -280,7 +301,6 @@
 		C43496821E5CBECC003D59F6 /* War Amputee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "War Amputee.png"; sourceTree = "<group>"; };
 		C43496841E5CBED4003D59F6 /* Wright Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wright Square.png"; sourceTree = "<group>"; };
 		C43496861E5CBF2A003D59F6 /* Civil War amputation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Civil War amputation.png"; sourceTree = "<group>"; };
-		C43496881E5CC240003D59F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images.xcassets; path = WickedWalksSavannah/Images.xcassets; sourceTree = "<group>"; };
 		C434968A1E689983003D59F6 /* nolac4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac4.mp3; sourceTree = "<group>"; };
 		C434968C1E68998D003D59F6 /* nolac3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac3.mp3; sourceTree = "<group>"; };
 		C434968E1E689995003D59F6 /* nolac10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nolac10.mp3; sourceTree = "<group>"; };
@@ -294,8 +314,8 @@
 		C43496A01E689B21003D59F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C43496A21E689B29003D59F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C43496A41E689B98003D59F6 /* Header1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Header1-568h@2x.png"; sourceTree = "<group>"; };
-		C43496A61E689BA2003D59F6 /* Header1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Header1@2x.png"; sourceTree = "<group>"; };
-		C43496A81E689BAC003D59F6 /* Header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header1.png; sourceTree = "<group>"; };
+		C43496A61E689BA2003D59F6 /* Header1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header1.png; sourceTree = "<group>"; };
+		C43496A81E689BAC003D59F6 /* Header1480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header1480.png; sourceTree = "<group>"; };
 		C43496AA1E68C144003D59F6 /* Diane320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diane320.png; sourceTree = "<group>"; };
 		C43496AC1E6B49D2003D59F6 /* Sorrel Weed 20's.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sorrel Weed 20's.png"; sourceTree = "<group>"; };
 		C43496AE1E6B49E1003D59F6 /* Sorrel Weed basement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sorrel Weed basement.png"; sourceTree = "<group>"; };
@@ -423,21 +443,31 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C43496881E5CC240003D59F6 /* Images.xcassets */,
-				C43496281E5CBCEC003D59F6 /* Icon29.png */,
-				C434962A1E5CBCF4003D59F6 /* Icon50.png */,
-				C434962C1E5CBCFE003D59F6 /* Icon.png */,
+				41A3E5AB207D871600158DF5 /* Images.xcassets */,
+				412D7564207CF13600CCF4F8 /* Icon.png */,
+				412D7566207CF16600CCF4F8 /* Icon@2x.png */,
+				412D756E207CF1B300CCF4F8 /* icon20@2x.png */,
+				412D7570207CF1BF00CCF4F8 /* icon20@3x.png */,
+				412D7568207CF18300CCF4F8 /* Icon29.png */,
+				412D756A207CF19500CCF4F8 /* icon29@2x.png */,
+				412D756C207CF1A200CCF4F8 /* icon29@3x.png */,
+				412D7572207CF1D000CCF4F8 /* icon40@2x.png */,
+				410CDD3F207CF693004ACA07 /* icon40@3x.png */,
+				412D7578207CF1F900CCF4F8 /* icon60@3x.png */,
+				410CDD41207CF7C6004ACA07 /* icon60@2x.png */,
 				C434962E1E5CBD0C003D59F6 /* Icon58.png */,
+				4174BF6E2078014400DD95E4 /* icon60.png */,
 				C43496301E5CBD19003D59F6 /* Icon72.png */,
 				C434969C1E689A45003D59F6 /* Icon80.png */,
 				C43496321E5CBD20003D59F6 /* Icon114.png */,
 				C43496341E5CBD29003D59F6 /* Icon120.png */,
 				C43496361E5CBD33003D59F6 /* Icon180.png */,
+				41506709207A5F85003E53A9 /* Icon1024.png */,
 				C434969E1E689B18003D59F6 /* Default.png */,
 				C43496A01E689B21003D59F6 /* Default@2x.png */,
 				C43496A21E689B29003D59F6 /* Default-568h@2x.png */,
-				C43496A81E689BAC003D59F6 /* Header1.png */,
-				C43496A61E689BA2003D59F6 /* Header1@2x.png */,
+				C43496A81E689BAC003D59F6 /* Header1480.png */,
+				C43496A61E689BA2003D59F6 /* Header1.png */,
 				C43496A41E689B98003D59F6 /* Header1-568h@2x.png */,
 				C42BAFBF11BF369300D9F604 /* InfoXIB */,
 				C42BAFBE11BF366B00D9F604 /* DetailXIB */,
@@ -743,15 +773,22 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 5G4385EGEP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WickedWalksSavannah" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -777,6 +814,7 @@
 				C43496671E5CBE4E003D59F6 /* nolactable5.png in Resources */,
 				537204D40DC28C260048CDA2 /* PageThreeViewController.xib in Resources */,
 				C43496DF1E75FB4D003D59F6 /* Sorrel Weed House.png in Resources */,
+				410CDD42207CF7C6004ACA07 /* icon60@2x.png in Resources */,
 				537204D50DC28C260048CDA2 /* PageFiveViewController.xib in Resources */,
 				C434966F1E5CBE6C003D59F6 /* nolactable10.png in Resources */,
 				C43496971E6899BE003D59F6 /* nolac11.mp3 in Resources */,
@@ -796,8 +834,10 @@
 				C485173D11AF5C7900549246 /* PinDRed3.png in Resources */,
 				C485173E11AF5C7900549246 /* PinDRed4.png in Resources */,
 				C43496311E5CBD19003D59F6 /* Icon72.png in Resources */,
-				C434962B1E5CBCF4003D59F6 /* Icon50.png in Resources */,
+				412D756B207CF19500CCF4F8 /* icon29@2x.png in Resources */,
+				412D7565207CF13600CCF4F8 /* Icon.png in Resources */,
 				C485173F11AF5C7900549246 /* PinDRed5.png in Resources */,
+				4174BF6F2078014400DD95E4 /* icon60.png in Resources */,
 				C485174011AF5C7900549246 /* PinDRed6.png in Resources */,
 				C43496CB1E71EBD1003D59F6 /* Pirate's House Tunnel.png in Resources */,
 				C43496911E6899A0003D59F6 /* nolac8.mp3 in Resources */,
@@ -807,10 +847,10 @@
 				C434963D1E5CBD65003D59F6 /* J Habersham Jr.png in Resources */,
 				C485174211AF5C7900549246 /* PinDRed8.png in Resources */,
 				C434961B1E5CBC6A003D59F6 /* 1790 sign.png in Resources */,
-				C43496291E5CBCEC003D59F6 /* Icon29.png in Resources */,
 				C485183B11B0A40500549246 /* Playbutton.png in Resources */,
 				C485183D11B0A40F00549246 /* pausebutton.png in Resources */,
 				C485184011B0A41C00549246 /* bp_btn1.png in Resources */,
+				412D756D207CF1A200CCF4F8 /* icon29@3x.png in Resources */,
 				C485184111B0A41C00549246 /* bp_btn2.png in Resources */,
 				C434962F1E5CBD0C003D59F6 /* Icon58.png in Resources */,
 				C485184311B0A42B00549246 /* volume_up.png in Resources */,
@@ -819,33 +859,40 @@
 				C43496B31E6B4A15003D59F6 /* nolactable13.png in Resources */,
 				C4851B2011B4864000549246 /* TableViewIcon.png in Resources */,
 				C43496331E5CBD20003D59F6 /* Icon114.png in Resources */,
+				4150670A207A5F85003E53A9 /* Icon1024.png in Resources */,
 				C4851B2211B4864A00549246 /* MapViewIcon.png in Resources */,
 				C4851C5511B5E14B00549246 /* PageSixViewController.xib in Resources */,
 				C43496951E6899B3003D59F6 /* nolac5.mp3 in Resources */,
+				412D7567207CF16600CCF4F8 /* Icon@2x.png in Resources */,
 				C4851C6811B5E19800549246 /* PageSevenViewController.xib in Resources */,
 				C43496211E5CBC86003D59F6 /* Colonial Park Gate.png in Resources */,
 				C42BAFA911BF363000D9F604 /* TipsViewController.xib in Resources */,
 				C42BAFAE11BF363D00D9F604 /* DirectionsViewController.xib in Resources */,
 				C42BAFB311BF364900D9F604 /* HelpViewController.xib in Resources */,
 				C42BAFB811BF365400D9F604 /* AboutViewController.xib in Resources */,
-				C43496A71E689BA2003D59F6 /* Header1@2x.png in Resources */,
+				C43496A71E689BA2003D59F6 /* Header1.png in Resources */,
 				C42BAFBD11BF365D00D9F604 /* HoursViewController.xib in Resources */,
 				C434968F1E689995003D59F6 /* nolac10.mp3 in Resources */,
 				C434963B1E5CBD57003D59F6 /* Ironwork Angel.png in Resources */,
-				C43496A91E689BAC003D59F6 /* Header1.png in Resources */,
+				412D7579207CF1F900CCF4F8 /* icon60@3x.png in Resources */,
+				C43496A91E689BAC003D59F6 /* Header1480.png in Resources */,
+				412D7573207CF1D000CCF4F8 /* icon40@2x.png in Resources */,
 				C43496B81E6B526E003D59F6 /* PageTwelveViewController.xib in Resources */,
 				C43496D71E75FAF2003D59F6 /* Madison Square.png in Resources */,
 				C4A5B8E111CC5D2C00BDE06F /* PageEightViewController.xib in Resources */,
 				C434964F1E5CBDDC003D59F6 /* Moon River upstairs.png in Resources */,
 				C434961F1E5CBC7E003D59F6 /* Colonial Park Cemetery.png in Resources */,
 				C43496C51E6F6D55003D59F6 /* nolac7.mp3 in Resources */,
+				41A3E5AC207D871600158DF5 /* Images.xcassets in Resources */,
 				C43496A11E689B21003D59F6 /* Default@2x.png in Resources */,
 				C41387F218E73A8100BB84CF /* forward12.png in Resources */,
 				C43496A31E689B29003D59F6 /* Default-568h@2x.png in Resources */,
 				C41EFDDB11FE69A00026DD31 /* PinDRed9.png in Resources */,
 				C43496611E5CBE3C003D59F6 /* nolactable2.png in Resources */,
+				410CDD40207CF693004ACA07 /* icon40@3x.png in Resources */,
 				C41EFDDC11FE69A00026DD31 /* PinDRed10.png in Resources */,
 				C41EFDDD11FE69A00026DD31 /* PinDRed11.png in Resources */,
+				412D7569207CF18400CCF4F8 /* Icon29.png in Resources */,
 				C41EFDDE11FE69A00026DD31 /* PinDRed12.png in Resources */,
 				C434965F1E5CBE36003D59F6 /* nolactable1.png in Resources */,
 				C41EFDDF11FE69A00026DD31 /* PinDRed13.png in Resources */,
@@ -877,13 +924,14 @@
 				C43496D11E75FA91003D59F6 /* Jasper statue.png in Resources */,
 				C434961D1E5CBC73003D59F6 /* Civil War Savannah.png in Resources */,
 				C43496471E5CBDAE003D59F6 /* Juliette Low.png in Resources */,
-				C434962D1E5CBCFE003D59F6 /* Icon.png in Resources */,
 				C43496CF1E75FA6B003D59F6 /* Death of Pulaski.png in Resources */,
+				412D756F207CF1B300CCF4F8 /* icon20@2x.png in Resources */,
 				C43496191E5CBC5D003D59F6 /* 1790 Inn.png in Resources */,
 				C43496771E5CBE94003D59F6 /* Tomochichi Memorial.png in Resources */,
 				C43496571E5CBE08003D59F6 /* Recovering bodies.png in Resources */,
 				C43496931E6899A8003D59F6 /* nolac6.mp3 in Resources */,
 				C43496DB1E75FB19003D59F6 /* Onesime Legriel altered marker.png in Resources */,
+				412D7571207CF1C000CCF4F8 /* icon20@3x.png in Resources */,
 				C434969D1E689A45003D59F6 /* Icon80.png in Resources */,
 				C4F75A361E781529008041B9 /* nolac12.mp3 in Resources */,
 				C43496AD1E6B49D2003D59F6 /* Sorrel Weed 20's.png in Resources */,
@@ -901,7 +949,6 @@
 				C434967D1E5CBEAF003D59F6 /* Treasure Island book cover.png in Resources */,
 				C434968B1E689984003D59F6 /* nolac4.mp3 in Resources */,
 				C43496351E5CBD29003D59F6 /* Icon120.png in Resources */,
-				C43496891E5CC240003D59F6 /* Images.xcassets in Resources */,
 				C4F75A341E78150E008041B9 /* nolac1.mp3 in Resources */,
 				C434969F1E689B18003D59F6 /* Default.png in Resources */,
 				C43496D31E75FACD003D59F6 /* nolactable12.png in Resources */,
@@ -1019,10 +1066,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5G4385EGEP;
+				ENABLE_BITCODE = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1030,9 +1081,11 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadventure.WickedWalksSavannah;
 				PRODUCT_NAME = WickedWalksSavannah;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1043,17 +1096,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5G4385EGEP;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadventure.WickedWalksSavannah;
 				PRODUCT_NAME = WickedWalksSavannah;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1063,14 +1122,40 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = WickedWalksSavannah;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1079,12 +1164,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -1093,13 +1203,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = WickedWalksSavannah;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1109,17 +1244,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5G4385EGEP;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = /Applications;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intownadventure.WickedWalksSavannah;
 				PRODUCT_NAME = WickedWalksSavannah;
-				PROVISIONING_PROFILE = "dcb79d37-bfca-4ee6-a38a-1cb9087867fb";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
